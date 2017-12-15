@@ -1,0 +1,4 @@
+#!/bin/bash
+
+GHash=$(git rev-parse --short HEAD)
+echo "aaa$GHash"
